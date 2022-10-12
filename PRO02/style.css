@@ -1,0 +1,13 @@
+body{
+    background-color: #252525;
+
+    color: aliceblue;
+        margin: 0;
+        padding: 0;
+    }
+header { 
+    background-color: black;
+    display: block; 
+  }
+
+   
