@@ -1,110 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-  <script>
-    $(document).ready(function(){
-      $('.slider').bxSlider();
-    });
-  </script>
-    <link href="style.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" />
     <script src="http://code.jquery.com/jquery-3.6.0.min.js"></script>
-</head>
-<body>
-    <article>
-        <header>
-        <div style="float: right; margin-right: 20px;">
-            <br>
-       <button>자유게시판</button>
-            <button>로그인</button></div>
-        <img src="https://cyber.inhatc.ac.kr/lmsdata/img/template1/logo.png"  width="320" height="60">
+  </head>
+  <body>
+    <header class="header">
+      <div class="headerStyle">
+        <div>
+          <img
+            src="https://postfiles.pstatic.net/MjAyMjExMDRfMTE5/MDAxNjY3NTM5MTQwMzA4.Au8I7fK7IBhZgWqgpfrNdGDvTXLjdDojiWdpOizOa2kg.mwk3kPGkb9q_kVvwsRLq2Xsnp-9ozgZQv9WZehIbC88g.PNG.beanoi08/zoha.png?type=w773"
+            width="200"
+            height="60"
+          />
+        </div>
+        <div class="box">
+          <div class="container-4">
+            <input type="search" id="search" placeholder="Search" />
+            <button class="icon"><i class="fa fa-search"></i></button>
+          </div>
+          <i class="fa fa-search"></i>
+        </div>
+        <div class="inp">
+          <a href="list.html">자유게시판</a>
+          <a href="#">로그인</a>
+        </div>
+      </div>
     </header>
-    <br>
 
-    <div class = "tab" style="width:150px; float: left;">
-        <table border="1">
-        <p>자유게시판
-            <hr>
-        <p>코미디
-            <hr>
-        <p>SF
-            <hr>
-        <p>공포,스릴러
-            <hr>
-        <p>판타지
-            <hr>
-        <p>드라마
-            <hr>
-        <p>미스터리
-            <hr>
-        <p>다큐
-            <hr>
-        <p>애니메이션</p>
-        <hr>
+    <table class="lank">
+      <thead>
+        <tr>
+          <th>순위</th>
+          <th>영화 제목</th>
+          <th>개봉일</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>공조</td>
+          <td>2020.5.4</td>
+        </tr>
+
+        <tr>
+          <td>2</td>
+          <td>공조2</td>
+          <td>2020.5.4</td>
+        </tr>
+
+        <tr>
+          <td>3</td>
+          <td>공조3</td>
+          <td>2020.5.4</td>
+        </tr>
+
+        <tr>
+          <td>4</td>
+          <td>공조4</td>
+          <td>2020.5.4</td>
+        </tr>
+
+        <tr>
+          <td>5</td>
+          <td>공조5</td>
+          <td>2020.5.4</td>
+        </tr>
+
+        <tr>
+          <td>6</td>
+          <td>공조6</td>
+          <td>2020.5.4</td>
+        </tr>
+
+        <tr>
+          <td>7</td>
+          <td>공조7</td>
+          <td>2020.5.4</td>
+        </tr>
+
+        <tr>
+          <td>8</td>
+          <td>공조8</td>
+          <td>2020.5.4</td>
+        </tr>
+
+        <tr>
+          <td>9</td>
+          <td>공조9</td>
+          <td>2020.5.4</td>
+        </tr>
+
+        <tr>
+          <td>10</td>
+          <td>공조10</td>
+          <td>2020.5.4</td>
+        </tr>
+      </tbody>
     </table>
+
+    <div class="lankimg">
+      <div class="lankimg1">
+        <img
+          src="https://search.pstatic.net/common?type=f&size=206x290&quality=100&direct=true&src=https%3A%2F%2Fs.pstatic.net%2Fmovie.phinf%2F20221027_186%2F1666838951651Y4Vt8_JPEG%2Fmovie_image.jpg"
+        />
+        <dl>
+          <dt>평점 :</dt>
+          <dt>누적 관객 수 :</dt>
+        </dl>
+      </div>
+      <div class="lankimg2">
+        <img
+          src="https://search.pstatic.net/common?type=f&size=206x290&quality=100&direct=true&src=https%3A%2F%2Fs.pstatic.net%2Fmovie.phinf%2F20221026_38%2F1666767919435O8afR_JPEG%2Fmovie_image.jpg"
+        />
+        <dl>
+          <dt>평점 :</dt>
+          <dt>누적 관객 수 :</dt>
+        </dl>
+      </div>
+      <div class="lankimg3">
+        <img
+          src="https://search.pstatic.net/common?type=f&size=206x290&quality=100&direct=true&src=https%3A%2F%2Fs.pstatic.net%2Fmovie.phinf%2F20221006_279%2F1665038983542j7F4n_JPEG%2Fmovie_image.jpg"
+        />
+        <dl>
+          <dt>평점 :</dt>
+          <dt>누적 관객 수 :</dt>
+        </dl>
+      </div>
     </div>
-
-    <table class ="lank" >
-        <th>순위</th>
-        <th>영화 제목</th>
-        <th>뭐</th>
-        <tr>
-            <td>1 </td> <td>공조</td> <td>2020.5.4</td>
-            
-        </tr>
-        
-        <tr>
-            <td>2 </td> <td>공조2</td> <td>2020.5.4</td>
-        </tr>
-        <tr>
-            <td>3 </td> <td>공조3</td> <td>2020.5.4</td>
-        </tr>
-        <tr>
-            <td>4 </td> <td>공조4</td> <td>2020.5.4</td>
-        </tr>
-        <tr>
-            <td>5 </td> <td>공조5</td> <td>2020.5.4</td>
-        </tr>
-        <tr>
-            <td>6 </td> <td>공조6</td> <td>2020.5.4</td>
-        </tr>
-        <tr>
-            <td>7 </td> <td>공조7</td> <td>2020.5.4</td>
-        </tr>
-        <tr>
-            <td>8 </td> <td>공조8</td> <td>2020.5.4</td>
-        </tr>
-        <tr>
-            <td>9 </td> <td>공조9</td> <td>2020.5.4</td>
-        </tr>
-        <tr>
-            <td>10</td> <td>공조10</td> <td>2020.5.4</td>
-        </tr>
-    </table>
-    <table class="imglank">
-    <div style="display: flex; justify-content: space-between; ">
-        <span style="margin: 0 50px;">
-        <img src="https://search.pstatic.net/common?type=f&size=206x290&quality=100&direct=true&src=https%3A%2F%2Fs.pstatic.net%2Fmovie.phinf%2F20220826_188%2F1661489945659Su2RI_JPEG%2Fmovie_image.jpg" width="250" height="300">
-        <p>평점 : </p>
-        누적 관객 수 : 
-    </span>
-    <span style="margin: 0 50px;">
-        <img src="https://search.pstatic.net/common?type=f&size=206x290&quality=100&direct=true&src=https%3A%2F%2Fs.pstatic.net%2Fmovie.phinf%2F20220929_135%2F1664441921246ae2RC_JPEG%2Fmovie_image.jpg" width="250" height="300"><br>
-        <p>평점 : </p>
-        누적 관객 수 : 
-    </span>
-    <span style="margin: 0 50px;">
-        <img src="https://search.pstatic.net/common?type=f&size=206x290&quality=100&direct=true&src=https%3A%2F%2Fs.pstatic.net%2Fmovie.phinf%2F20220930_90%2F1664503344646CtlxN_JPEG%2Fmovie_image.jpg" width="250" height="300"><br>
-        <p>평점 : </p>
-        누적 관객 수 : 
-    </span>
-</div>
-</table>
-</body>
+    <footer class="footer">
+      <div id="slider">
+        <div class="image-box">
+          <div><img src="C:\swimage\audfid.png" /></div>
+          <div><img src="C:\swimage\rmrgkswlrdjq.jpg" /></div>
+          <div><img src="C:\swimage\whldhkqjf.jpg" /></div>
+          <div><img src="C:\swimage\rnrwptlwkd.jpg" /></div>
+          <div><img src="C:\swimage\djqpswutm.png" /></div>
+          <div><img src="C:\swimage\rudnfdhkdrnr.png" /></div>
+          <div><img src="C:\swimage\qpxpfkd.jpg" /></div>
+          <div><img src="C:\swimage\dkqkxk.jpg" /></div>
+          <div><img src="C:\swimage\ehenremf.png" /></div>
+          <div><img src="C:\swimage\7qjsqkd.jpg" /></div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
