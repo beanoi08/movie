@@ -1,29 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="style.css" rel="stylesheet" />
+    <link href="join.css" rel="stylesheet" />
     <title>Document</title>
   </head>
   <body>
     <div class="other-pages">
       <div class="lor-img">
-        <a href="file:///C:/SW_PROJECT/PRO01/index.html#"
-          ><img
-            src="https://postfiles.pstatic.net/MjAyMjExMDRfMTE5/MDAxNjY3NTM5MTQwMzA4.Au8I7fK7IBhZgWqgpfrNdGDvTXLjdDojiWdpOizOa2kg.mwk3kPGkb9q_kVvwsRLq2Xsnp-9ozgZQv9WZehIbC88g.PNG.beanoi08/zoha.png?type=w773"
+        <a href="file:///C:/SW_PROJECT/PRO01/index.html#">
+          <img src="C:\swimage\zoha.png"
         /></a>
       </div>
       <div class="lor-content">
-        <form id="loginForm">
+        <form id="joinForm">
           <div class="input-enter">
             <input
               type="text"
               name="mb_id"
-              id="login_id"
-              size="20"
-              maxlength="20"
+              id="join_id"
               placeholder="아이디를 입력해주세요"
             />
           </div>
@@ -31,14 +28,37 @@
             <input
               type="password"
               name="mb_password"
-              id="login_pw"
+              id="join_password"
               placeholder="비밀번호를 입력해주세요"
             />
           </div>
-          <a href="#" class="join" rel="nofollow">회원가입</a>
+          <div class="input-enter">
+            <input
+              type="password"
+              name="mb_password_re"
+              id="join_password_re"
+              placeholder="비밀번호를 재입력해주세요"
+            />
+          </div>
+          <div class="input-enter">
+            <input
+              type="text"
+              name="mb_nick"
+              id="join_nickname"
+              placeholder="닉네임을 입력해주세요"
+            />
+          </div>
+          <div class="input-enter">
+            <input
+              type="text"
+              name="mb_email"
+              id="join_email"
+              placeholder="이메일 주소를 입력해주세요"
+            />
+          </div>
           <div class="btn-res">
             <button type="submit">
-              로그인<i
+              회원가입<i
                 class="far fa-spinner-third fa-spin"
                 id="loading_lor"
               ></i>
